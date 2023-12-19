@@ -4,15 +4,15 @@ stages:
     cmd: python train.py
     params:
       params.yaml:
-        epochs: 10
+        epochs: 8
         sleep: 3
     outs:
     - path: dvclive/metrics.json
       hash: md5
-      md5: a2eba65b2431283c319128dcf67b9a68
-      size: 79
+      md5: 0027e3d93d7040a579e7bce72d1e83a7
+      size: 80
     - path: dvclive/plots
       hash: md5
-      md5: 0648f2db62df3bc85effe856328512d6.dir
-      size: 424
+      md5: 4c5a1689ce1c4a0cb6e8eb976b526253.dir
+      size: 345
       nfiles: 2
